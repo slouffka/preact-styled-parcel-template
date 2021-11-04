@@ -1,0 +1,24 @@
+{
+  "name": "preact-styled-parcel-template",
+  "version": "0.1.1",
+  "source": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.16.0",
+    "preact": "^10.5.15",
+    "styled-components": "^5.3.3"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react-dom": "preact/compat",
+    "react/jsx-runtime": "preact/jsx-runtime"
+  }
+}
